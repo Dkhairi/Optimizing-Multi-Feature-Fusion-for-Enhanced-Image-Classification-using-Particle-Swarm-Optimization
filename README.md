@@ -36,6 +36,11 @@ KTH-TIPS2-b Dataset: Containing images of various industrial materials.
 Results
 The results demonstrate that PSO-based weight optimization significantly improves classification accuracy across all classifiers and datasets.
 
+1- All the features are extracted from the dataset using different techniques and saved them in csv files.
+2- Codes for features extrcation is in the "fearures extraction of kaggle dataset.ipynb" file.
+3- Without Optimization, Codes for classifiers (SVM,RF, Shallow CNN) training is in the " Models Training.ipynb" file.
+4- With Optimization(PSO), Codes for  classifiers (SVM,RF, Shallow CNN) training is in the "weight optimization.ipynb" file.
+
 Significant accuracy improvements are observed when using the PSO-optimized feature vector compared to individual feature sets.
 The effectiveness of the proposed approach is validated on two diverse datasets.
 Usage
@@ -45,3 +50,7 @@ Clone the repository.
 Install the required dependencies.
 Prepare the datasets and update the file paths in the code.
 Run the feature extraction and classification scripts.
+
+
+
+
